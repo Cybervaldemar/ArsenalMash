@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="cybernesis" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Add write permission to App_Data Folder" description="Add write permission to App_Data folder" value="cybernesis/App_Data" tags="Hidden">
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp\\App_Data$" />
+  </parameter>
+  <parameter name="ConnectionString-Web.config Connection String" description="" value="Data Source=tcp:g0bkwncy9n.database.windows.net,1433;Initial Catalog=new;Integrated Security=False;User ID=lol@g0bkwncy9n;Password=FlUf1310;Connect Timeout=30;Encrypt=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="NewContext-Web.config Connection String" description="" value="Data Source=tcp:g0bkwncy9n.database.windows.net,1433;Initial Catalog=new;Integrated Security=False;User ID=lol@g0bkwncy9n;Password=FlUf1310;Connect Timeout=30;Encrypt=True" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NewContext']/@connectionString" />
+  </parameter>
+  <parameter name="NewsContext-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=NewsContext-20160426000110; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|NewsContext-20160426000110.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NewsContext']/@connectionString" />
+  </parameter>
+</parameters>

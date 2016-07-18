@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DB" Class="SiteDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\App_Data\DB.mdf&quot;;Integrated Security=True" SettingsObjectName="Site.Model.Properties.Settings" SettingsPropertyName="DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Role" Member="Role">
+    <Type Name="Role">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="Role_UserRole" Member="UserRole" ThisKey="ID" OtherKey="RoleID" Type="UserRole" />
+    </Type>
+  </Table>
+  <Table Name="dbo.UserRole" Member="UserRole">
+    <Type Name="UserRole">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Role_UserRole" Member="Role" ThisKey="RoleID" OtherKey="ID" Type="Role" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="User_UserRole" Member="User" ThisKey="UserID" OtherKey="ID" Type="User" IsForeignKey="true" DeleteRule="CASCADE" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="User">
+    <Type Name="User">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(150) NOT NULL" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Birthdate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="AddedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ActivatedDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="ActivatedLink" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastVisitDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="AvatarPath" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Association Name="User_UserRole" Member="UserRole" ThisKey="ID" OtherKey="UserID" Type="UserRole" />
+      <Association Name="User_Orders" Member="Orders" ThisKey="ID" OtherKey="UserID" Type="Orders" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Orders" Member="Orders">
+    <Type Name="Orders">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Fam" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="TypeOrderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Association Name="User_Orders" Member="User" ThisKey="UserID" OtherKey="ID" Type="User" IsForeignKey="true" DeleteRule="CASCADE" />
+      <Association Name="TypeServices_Orders" Member="TypeServices" ThisKey="TypeOrderID" OtherKey="ID" Type="TypeServices" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TypeServices" Member="TypeServices">
+    <Type Name="TypeServices">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ListOrder" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Association Name="TypeServices_Orders" Member="Orders" ThisKey="ID" OtherKey="TypeOrderID" Type="Orders" />
+      <Association Name="TypeServices_ShippingDetails" Member="ShippingDetails" ThisKey="ID" OtherKey="OrderID" Type="ShippingDetails" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ShippingDetails" Member="ShippingDetails">
+    <Type Name="ShippingDetails">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="OrderID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Line1" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Line2" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Line3" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="City" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Country" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TypeServices_ShippingDetails" Member="TypeServices" ThisKey="OrderID" OtherKey="ID" Type="TypeServices" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.News" Member="News">
+    <Type Name="News">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="TitleNew" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="PreviewText" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="TextNew" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="DateNew" Type="System.DateTime" DbType="Date" CanBeNull="true" />
+      <Column Name="PictureNew" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="OtherInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

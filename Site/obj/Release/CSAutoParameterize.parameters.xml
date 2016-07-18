@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="ConnectionString-Web.config Connection String" description="ConnectionString Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\App_Data\DB.mdf;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ConnectionString']/@connectionString" />
+  </parameter>
+  <parameter name="NewsContext-Web.config Connection String" description="NewsContext Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=NewsContext-20160426000110; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|NewsContext-20160426000110.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NewsContext']/@connectionString" />
+  </parameter>
+  <parameter name="NewContext-Web.config Connection String" description="NewContext Строка подключения в web.config, используемая приложением для доступа к базе данных." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=NewContext-20160426000933; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|NewContext-20160426000933.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Дарья\\Desktop\\МихаилСайт\\Site\\Site\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='NewContext']/@connectionString" />
+  </parameter>
+</parameters>

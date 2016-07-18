@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Site.Models.NewsModel>
+
+
+
+    <div class="row">
+@foreach (var item in Model)
+{
+
+        <div class="col-sm-6 col-md-4">
+            
+                
+            <div class="thumbnail">
+                <img src="~/Themes/Progressus/assets/images/@item.PictureNew" />
+                <div class="caption">
+                    <h3>@item.TitleNew</h3>
+                    <p>@item.PreviewText</p>
+                    <p> <a href="/Home/GetNew/@item.ID" class="btn btn-default" role="button">Просмотреть</a></p>
+                </div>
+            </div>
+            
+        </div>
+}
+    </div>
+

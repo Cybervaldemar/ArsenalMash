@@ -1,0 +1,32 @@
+﻿@model Site.Models.Info.PageableData<Site.Model.News>
+
+@{
+    ViewBag.Title = "Новости";
+    Layout = "~/Areas/Default/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Новости сайта</h2>
+
+<p>
+    @foreach (var user in Model.List)
+    {
+        <div class="row thumbnail">
+            <div class="col-md-3">
+                <img src="~/Themes/Progressus/assets/images/@user.PictureNew" class="img" width="200" />
+
+            </div>
+            <div class="col-md-9">
+                <a href="/Home/GetNew/@user.ID"><h3>@user.TitleNew</h3></a>
+                <h6>@user.DateNew.Value.Date.ToString("dd.MM.yyyy")</h6>
+                <h3>@user.PreviewText</h3>
+            </div>
+        </div>
+        
+        <br />
+        
+    }
+</p>
+
+<div class="pagination-lg">
+    @Html.PageLinks(Model.PageNo, Model.CountPage, x => Url.Action("AllNews", new { page = x }))
+</div>

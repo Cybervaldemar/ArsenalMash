@@ -1,0 +1,16 @@
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\obj\Debug\Site.Model.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\bin\Debug\Site.Model.dll.config
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\bin\Debug\Site.Model.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\bin\Debug\Site.Model.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\bin\Debug\Ninject.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\bin\Debug\Ninject.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\obj\Debug\Site.Model.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site.Model\obj\Debug\Site.Model.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\bin\Debug\Site.Model.dll.config
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\bin\Debug\Site.Model.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\bin\Debug\Site.Model.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\bin\Debug\Ninject.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\bin\Debug\Ninject.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\obj\Debug\Site.Model.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\obj\Debug\Site.Model.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site.Model\obj\Debug\Site.Model.pdb

@@ -1,0 +1,8 @@
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\bin\Release\Site.Model.dll.config
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\bin\Release\Site.Model.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\bin\Release\Site.Model.pdb
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\bin\Release\Ninject.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\bin\Release\Ninject.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\obj\Release\Site.Model.csprojResolveAssemblyReference.cache
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\obj\Release\Site.Model.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site.Model\obj\Release\Site.Model.pdb

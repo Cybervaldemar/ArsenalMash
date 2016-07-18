@@ -1,0 +1,66 @@
+﻿@model Site.Models.NewsModel
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>News</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.TitleNew)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TitleNew)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PreviewText)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PreviewText)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.TextNew)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.TextNew)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateNew)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateNew)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PictureNew)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PictureNew)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OtherInfo)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OtherInfo)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.ID }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

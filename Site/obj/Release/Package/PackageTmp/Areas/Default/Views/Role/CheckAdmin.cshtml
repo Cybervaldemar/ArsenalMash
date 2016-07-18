@@ -1,0 +1,18 @@
+﻿@model Site.Models.UserRoleViewModel
+@{
+    ViewBag.Title = "CheckAdmin";
+}
+
+@foreach (var roles in Model.UserRoles)
+{
+    if (Model.ID == roles.ID)
+    {
+        if (roles.RoleID == 1)
+        {
+            <a class="text-info">AZAZAZA</a>
+        }
+    }
+}
+
+
+

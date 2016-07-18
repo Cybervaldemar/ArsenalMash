@@ -1,0 +1,42 @@
+﻿@model Site.Models.ViewModels.LoginView
+@{
+    ViewBag.Title = "Вход";
+    Layout = "~/Areas/Default/Views/Shared/_Layout.cshtml";
+}
+
+<header class="page-header">
+    <h1 class="page-title">Войти</h1>
+</header>
+
+@using (Html.BeginForm("Index", "Login", FormMethod.Post, new { @class = "form-horizontal" }))
+{
+    <fieldset>
+        
+        <div class="control-group">
+            <label class="control-label" for="Email">
+                Email
+            </label>
+            <div class="controls">
+                @Html.TextBox("Email", Model.Email, new { @class = "input-xlarge" })
+                <p class="help-block">Введите Email</p>
+                @Html.ValidationMessage("Email")
+            </div>
+
+        </div>
+        <div class="control-group">
+            <label class="control-label" for="Password">
+                Пароль
+            </label>
+            <div class="controls">
+                @Html.Password("Password", Model.Password, new { @class = "input-xlarge" })
+                @Html.ValidationMessage("Password")
+            </div>
+        </div>
+
+                <button type="submit" class="btn btn-primary">
+                    Войти
+                </button>
+        
+    </fieldset>
+}
+

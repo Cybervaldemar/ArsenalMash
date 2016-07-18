@@ -1,0 +1,8 @@
+﻿@model Site.Models.Cart
+
+
+
+    <a href="/Cart">
+        <i class="fa fa-shopping-cart fa-2"></i>
+        <span class="badge">@Model.Lines.Sum(x => x.Quantity)</span>
+    </a>

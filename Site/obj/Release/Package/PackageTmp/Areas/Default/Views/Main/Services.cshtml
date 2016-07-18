@@ -1,0 +1,125 @@
+﻿@model IList<Site.Model.TypeServices>
+
+@{
+    ViewBag.Title = "Услуги";
+    Layout = "~/Areas/Default/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h2>Услуги</h2>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Название модали</h4>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <fieldset class="form-group">
+                        <div class="control-group">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">Имя</span>
+                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="control-group">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">Фамилия</span>
+                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <div class="control-group">
+                            <div class="input-group">
+                                <span class="input-group-addon" id="basic-addon1">Номер</span>
+                                <input type="text" class="form-control" placeholder="" aria-describedby="basic-addon1">
+                            </div>
+                        </div>
+                    </fieldset>
+                    <fieldset class="form-group">
+                        <label for="exampleTextarea">Коментарий</label>
+                        <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                    </fieldset>
+                   @* <fieldset class="form-group">
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">
+                                OK
+                            </button>
+                            @Html.ActionLink("Cancel", "Index", null, null, new { @class = "btn" })
+                        </div>
+                    </fieldset>*@
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Отмена</button>
+                <button type="button" class="btn btn-primary">Заказать</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@{
+        var serv = Model.ToList();
+
+    int rows = (serv.Count / 3) + 1;
+
+    for (int i = 0; i < rows; i++)
+    {
+        var partServ = serv.Skip(i * 3);
+        var partServ2 = partServ.Take(3);
+        <div class="row">
+
+            @foreach (var services in partServ2)
+            {
+
+                <div class="col-sm-3 col-sm-offset-1 text-center thumbnail">
+                    <img class="img-responsive" data-idservice="@services.ID" src="~/Themes/Progressus/assets/images/products/@services.Image" />
+                    <p class="text-info">@services.ListOrder</p>
+                    <div class="btn-group btn-group-lg">
+                        <p class="text-primary">Цена: @services.Price</p>
+
+                        @using (Html.BeginForm("AddToCart", "Cart"))
+                        {
+                            <div class="pull-right">
+                                <input type="hidden" name="ID" value="@services.ID" />
+                                @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+                                <input type="submit" class="btn btn-success" value="Добавить в корзину" />
+                            </div>
+                        }
+
+                    </div>
+                </div>
+
+            } 
+</div>
+
+                    <br />
+                    }
+
+}
+
+
+
+
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        $(".mybtn").click(function () {
+
+             $("#myModal").modal('show');
+         });
+    });
+</script>
+
+
+

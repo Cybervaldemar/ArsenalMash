@@ -1,0 +1,31 @@
+﻿@model Site.Model.User
+
+
+@if (Model != null)
+{
+    <li>
+        @Html.Action("CheckAdmin","Role",new { id = Model.ID })
+    </li>
+    <li class="dropdown">
+        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+        @Model.Email
+         <span class="caret"> </span></a>
+        <ul class="dropdown-menu">
+           @* <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li role="separator" class="divider"></li>*@
+            <li><a href="/Login/Logout">Выход</a></li>
+        </ul>
+    </li>
+    
+    
+
+    @* <li>@Html.ActionLink("Выход", "Logout", "Login")</li> *@
+}
+else
+{
+    <li>@Html.ActionLink("Вход", "Index", "Login", new { area = "Default" },new { @class="btn" })</li>
+    <li>@Html.ActionLink("Регистрация", "Register", "User", new { area = "Default" }, new { @class = "btn" })</li>
+}
+

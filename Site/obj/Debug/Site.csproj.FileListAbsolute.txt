@@ -1,0 +1,216 @@
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\csc.exe
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\System.Collections.Immutable.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\vbc.exe
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\VBCSCompiler.exe
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\roslyn\VBCSCompiler.exe.config
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Site.dll.config
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Site.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Site.pdb
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Microsoft.Web.Infrastructure.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Newtonsoft.Json.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Net.Http.Formatting.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Helpers.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Http.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Http.WebHost.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Mvc.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Razor.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Webpages.Deployment.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Webpages.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Webpages.Razor.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Razor.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Webpages.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Webpages.Deployment.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Webpages.Razor.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Helpers.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Mvc.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\Newtonsoft.Json.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Net.Http.Formatting.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Http.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\System.Web.Http.WebHost.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\obj\Debug\Site.csprojResolveAssemblyReference.cache
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\obj\Debug\Site.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\obj\Debug\Site.pdb
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\EntityFramework.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\EntityFramework.SqlServer.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\EntityFramework.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\EntityFramework.SqlServer.xml
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Razor.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Webpages.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Webpages.Deployment.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Webpages.Razor.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Helpers.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Mvc.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Net.Http.Formatting.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Http.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\ru\System.Web.Http.WebHost.resources.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\NLog.dll
+c:\users\michael\documents\visual studio 2015\Projects\Site\Site\bin\NLog.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\WebActivatorEx.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Ninject.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Site.Model.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Site.Model.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Ninject.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Ninject.Web.Common.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Ninject.Web.Mvc.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Ninject.Web.Common.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Ninject.Web.Mvc.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\AutoMapper.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\AutoMapper.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Antlr3.Runtime.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\System.Web.Optimization.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\WebGrease.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\Antlr3.Runtime.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\Site\Site\bin\System.Web.Optimization.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\csc.exe
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\vbc.exe
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\VBCSCompiler.exe
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Site.dll.config
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Site.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Site.pdb
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Antlr3.Runtime.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\AutoMapper.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\EntityFramework.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\EntityFramework.SqlServer.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Newtonsoft.Json.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Ninject.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Ninject.Web.Common.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Ninject.Web.Mvc.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\NLog.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Site.Model.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Net.Http.Formatting.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Helpers.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Http.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Http.WebHost.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Mvc.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Optimization.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Razor.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Webpages.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Webpages.Razor.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\WebActivatorEx.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\WebGrease.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Site.Model.pdb
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Antlr3.Runtime.pdb
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\AutoMapper.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\EntityFramework.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\EntityFramework.SqlServer.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Ninject.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Ninject.Web.Common.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Ninject.Web.Mvc.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\NLog.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Optimization.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Razor.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Webpages.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Webpages.Razor.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Helpers.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Mvc.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\Newtonsoft.Json.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Net.Http.Formatting.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Http.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\System.Web.Http.WebHost.xml
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Http.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\obj\Debug\Site.csprojResolveAssemblyReference.cache
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\obj\Debug\Site.dll
+C:\Users\Дарья\Desktop\МихаилСайт\Site\Site\obj\Debug\Site.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\csc.exe
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\vbc.exe
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\VBCSCompiler.exe
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Site.dll.config
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Site.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Site.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Antlr3.Runtime.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\AutoMapper.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\EntityFramework.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\EntityFramework.SqlServer.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Newtonsoft.Json.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Ninject.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Ninject.Web.Common.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Ninject.Web.Mvc.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\NLog.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Site.Model.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Net.Http.Formatting.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Helpers.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Http.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Http.WebHost.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Mvc.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Optimization.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Razor.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Webpages.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Webpages.Razor.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\WebActivatorEx.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\WebGrease.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Site.Model.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Antlr3.Runtime.pdb
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\AutoMapper.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\EntityFramework.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\EntityFramework.SqlServer.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Ninject.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Ninject.Web.Common.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Ninject.Web.Mvc.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\NLog.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Optimization.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Razor.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Webpages.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Webpages.Razor.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Helpers.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Mvc.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\Newtonsoft.Json.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Net.Http.Formatting.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Http.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\System.Web.Http.WebHost.xml
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Razor.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Webpages.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Webpages.Deployment.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Webpages.Razor.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Helpers.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Mvc.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Net.Http.Formatting.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Http.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\bin\ru\System.Web.Http.WebHost.resources.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\obj\Debug\Site.csprojResolveAssemblyReference.cache
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\obj\Debug\Site.dll
+C:\Users\Michael\Documents\Visual Studio 2015\Projects\МихаилСайт\Site\Site\obj\Debug\Site.pdb

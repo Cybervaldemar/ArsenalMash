@@ -1,0 +1,28 @@
+﻿@model Site.Models.NewsModel
+
+@{
+    ViewBag.Title = Model.TitleNew;
+    Layout = "~/Areas/Default/Views/Shared/_Layout.cshtml";
+}
+
+<section id="news" class="intro white">
+    <div class="container">
+
+
+        <div class="row">
+
+            <!-- Article main content -->
+            <article class="col-md-8 maincontent">
+                <header class="page-header">
+                    <h1 class="page-title">@Model.TitleNew</h1>
+                </header>
+                @Html.Raw(@Model.TextNew)
+            </article>
+            <!-- /Article -->
+            <!-- Sidebar -->
+            <aside class="col-md-4 sidebar sidebar-right"></aside>
+            <!-- /Sidebar -->
+
+        </div>
+    </div>
+</section>
